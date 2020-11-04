@@ -8,7 +8,7 @@ function moveDodgerLeft()
   
   if (left > 0)
   {
-    dodger.style.left = `${left - 1}px`;
+    dodger.style.left = `${left - 5}px`;
   }
 }
 
@@ -19,7 +19,7 @@ function moveDodgerRight()
   
   if (left < 400)
   {
-    dodger.style.left = `${left + 1}px`;
+    dodger.style.left = `${left + 5}px`;
   }
 }
 
